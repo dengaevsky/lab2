@@ -1,0 +1,66 @@
+const cc = CookiesConsentJS({
+    buttons: ["reject", "accept", "settings", "dismiss"],
+    content: {
+        title: "Cookies compliance",
+        message: "We use cookies",
+        btnAccept: "Accept all",
+        btnReject: "Reject all",
+        btnDismiss: "Cookies policy",
+        btnSettings: "Settings",
+        btnSettingsSelectAll: "Select all",
+        btnSettingsUnselectAll: "Unselect all",
+        btnSettingsAccept: "Accept selection",
+        btnInfo: "More info",
+        policy: "Privacy Policy",
+        align: "left",
+        policyLink: "https://awkwardfamilyphotos.com/privacy-policy/",
+    },
+    cookies: {
+        Right_of_information: {
+            name: "Right_of_information",
+            description: "<h2>Право на інформацію: Користувачам надається інформація про збір, використання та розкриття їх особистих даних, а також про цілі обробки та правові підстави для такої обробки.</h2>",
+        },
+        Right_of_access: {
+            name: "Right_of_access",
+            description: "<h2>Право на доступ: Користувачі мають право запитати доступ до своїх особистих даних, які зберігаються на сайті.</h2>",
+            checked: true,
+            disabled: true,
+        },
+        Right_to_rectification: {
+            name: "Right_to_rectification",
+            description: "<h2>Право на виправлення: Користувачі можуть вимагати виправлення неправильних або неповних особистих даних.</h2>",
+            checked: true,
+            disabled: true,
+        },
+        Right_to_deletion: {
+            name: "Right_to_deletion",
+            description: "<h2>Право на видалення: Користувачі мають право вимагати видалення своїх особистих даних, якщо існують підстави для такого видалення, наприклад, коли дані більше не потрібні для вказаних цілей обробки.</h2>",
+            checked: true,
+            disabled: true,
+        },
+        Restriction_of_processing: {
+            name: "Restriction_of_processing",
+            description: "<h2>Право на обмеження обробки: Користувачі можуть вимагати обмеження обробки їх особистих даних у певних ситуаціях, наприклад, якщо точність даних спростовується.</h2>",
+            checked: true,
+            disabled: true,
+        },
+        right_to_data_portability: {
+            name: "right_to_data_portability",
+            description: "<h2>Право на переносимість даних: Користувачі мають право отримати копію своїх особистих даних у структурованому, загальноприйнятому та машинночитаному форматі і передати їх іншому контролюючому суб'єкту.</h2>",
+            checked: true,
+            disabled: true,
+        },
+        right_to_refuse_processing: {
+            name: "right_to_refuse_processing",
+            description: "<h2>Право відмовитися від обробки: Користувачі можуть відмовитися від обробки своїх особистих даних в певних ситуаціях, зокрема від обробки для прямих маркетингових цілей.</h2>",
+            checked: true,
+            disabled: true,
+        },
+        right_to_complain_to_the_supervisory_body: {
+            name: "right_to_complain_to_the_supervisory_body",
+            description: "<h2>Право скарги до наглядового органу: Користувачі мають право подати скаргу до відповідного наглядового органу у випадку порушення прав на захист особистих даних.</h2>",
+            checked: true,
+            disabled: true,
+        },
+    },
+});
